@@ -1,0 +1,359 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background: #1a1a1a;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #7e7e7e;
+    -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6 {color:#ababab;}
+a {color:#ababab;}
+a:hover {color:#52e5fb;}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+
+/* #Sidebar
+================================================== */
+.sidebar {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    padding: 20px;
+    z-index: 100;
+}
+.sidebar section.desc {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+}
+.sidebar ul {margin: 0; padding: 0;}
+.sidebar ul li {
+    margin: 6px 0; 
+    padding-left: 12px;
+    list-style: none;
+    background: url(../img/arrow.png) no-repeat 0 8px;}
+.sidebar ul li a {text-decoration: none;}
+ul.tweet_list li {background: none; padding-left: 0px;}
+section.footer {
+    border-top:1px solid #313131;
+    margin-top: 21px;
+    padding-top: 6px;
+}
+
+/* #Main Content
+================================================== */
+.container{padding: 10px 0 0 240px; z-index: 50;}
+.post{
+    width: 280px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    background: #282828;
+}
+.post img {
+    width: 280px;
+    height: 191px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.post-meta{
+    border-top:1px solid #313131;
+    border-bottom:1px solid #313131;
+    margin: 10px 0;
+    padding: 5px 0;
+}
+.post-meta li{
+    display: inline;
+    padding-right: 6px;
+}
+
+.post-meta li a {text-decoration: none;}
+a.title{
+    color:#ababab;
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+a.title:hover {color:#52e5fb;}
+a.read-more{
+    display: block;
+    margin: 10px 0;
+}
+
+/* #Infinite Scroll Loader
+================================================== */
+#infscr-loading { 
+  text-align: center;
+  z-index: 100;
+  position: fixed;
+  left: 45%;
+  bottom: 40px;
+  width: 200px;
+  padding: 10px;
+  background: #000; 
+  opacity: 0.8;
+  color: #FFF;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+}
+
+/* #Post Single
+================================================== */
+.post-container{
+    width: 640px;
+    padding: 20px 0 0 240px; 
+    z-index: 50;
+}
+.post-banner {margin-bottom: 21px;}
+.author {
+    border-top:1px solid #313131;
+    border-bottom:1px solid #313131;
+    margin: 21px 0;
+    padding: 10px 0;
+}
+.author-avatar {
+    width:80px; 
+    height: 80px;
+    float: left;
+    margin:0 10px 10px 0;
+}
+
+/* #Comment Form
+================================================== */
+.comment-form {margin: 0 0 40px 0; padding:0;}
+.comment-form li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+.comment-form li input[type="text"] {
+    margin-right: 10px; 
+    width: 250px; 
+    padding:5px;
+    background: #282828; 
+    border:1px solid #282828;
+    color: #7e7e7e;
+}
+.comment-form li textarea { 
+    width: 250px; 
+    height: 150px; 
+    padding:5px;
+    background: #282828;
+    border:1px solid #282828;
+    color: #7e7e7e;
+}
+.comment-form li input[type="submit"]{
+    background: #282828;
+    border:1px solid #282828;
+    color: #7e7e7e;
+    padding: 5px 10px;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
